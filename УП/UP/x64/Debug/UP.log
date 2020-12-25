@@ -1,0 +1,7 @@
+﻿  MyForm.cpp
+C:\Users\Newt\Desktop\УП\UP\MyForm.cpp(8,1): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  MyForm1.cpp
+  Создание кода...
+  MathLibrary.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+     Создается библиотека C:\Users\Newt\Desktop\УП\x64\Debug\UP_KyatalovaOV.lib и объект C:\Users\Newt\Desktop\УП\x64\Debug\UP_KyatalovaOV.exp
+  EducationalPractice.vcxproj -> C:\Users\Newt\Desktop\УП\x64\Debug\UP_KyatalovaOV.exe

@@ -1,0 +1,4 @@
+C:\Users\Newt\Desktop\SPbCT_KryatalovaOV\UP\UP\Debug\UP.vcxprojAssemblyReference.cache
+C:\Users\Newt\Desktop\SPbCT_KryatalovaOV\UP\UP\Debug\UP.MyForm.resources
+C:\Users\Newt\Desktop\SPbCT_KryatalovaOV\UP\UP\Debug\UP.vcxproj.GenerateResource.cache
+C:\Users\Newt\Desktop\SPbCT_KryatalovaOV\UP\UP\Debug\UP.MyForm1.resources
