@@ -26,7 +26,7 @@ namespace UP_KryatalovaOV {
 
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -35,13 +35,13 @@ namespace UP_KryatalovaOV {
 		{
 			InitializeComponent();
 			DateTime datetime = DateTime::Now;
-			this->label2->Text = datetime.ToString(); //Вывод текущей даты
+			this->label2->Text = datetime.ToString(); //Р’С‹РІРѕРґ С‚РµРєСѓС‰РµР№ РґР°С‚С‹
 			
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -54,7 +54,7 @@ namespace UP_KryatalovaOV {
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::Button^ button1;
 
-	//Потоки
+	//ГЏГ®ГІГ®ГЄГЁ
 	private: Thread^ myThread1;
 	private: Thread^ myThread2;
 	private: Thread^ myThread3;
@@ -74,14 +74,14 @@ namespace UP_KryatalovaOV {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -104,7 +104,7 @@ namespace UP_KryatalovaOV {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(196, 16);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Кряталова Ольга, 590 группа";
+			this->label1->Text = L"ГЉГ°ГїГІГ Г«Г®ГўГ  ГЋГ«ГјГЈГ , 590 ГЈГ°ГіГЇГЇГ ";
 			// 
 			// label2
 			// 
@@ -115,7 +115,7 @@ namespace UP_KryatalovaOV {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(40, 16);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Дата";
+			this->label2->Text = L"Г„Г ГІГ ";
 			// 
 			// button1
 			// 
@@ -125,7 +125,7 @@ namespace UP_KryatalovaOV {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(133, 43);
 			this->button1->TabIndex = 3;
-			this->button1->Text = L"Показать исходный файл";
+			this->button1->Text = L"ГЏГ®ГЄГ Г§Г ГІГј ГЁГ±ГµГ®Г¤Г­Г»Г© ГґГ Г©Г«";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -148,7 +148,7 @@ namespace UP_KryatalovaOV {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(133, 43);
 			this->button2->TabIndex = 7;
-			this->button2->Text = L"Сортировка";
+			this->button2->Text = L"Г‘Г®Г°ГІГЁГ°Г®ГўГЄГ ";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -161,7 +161,7 @@ namespace UP_KryatalovaOV {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(110, 16);
 			this->label3->TabIndex = 8;
-			this->label3->Text = L"Исходный файл";
+			this->label3->Text = L"Г€Г±ГµГ®Г¤Г­Г»Г© ГґГ Г©Г«";
 			// 
 			// textBox2
 			// 
@@ -183,7 +183,7 @@ namespace UP_KryatalovaOV {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(166, 16);
 			this->label4->TabIndex = 10;
-			this->label4->Text = L"Отсортированный файл";
+			this->label4->Text = L"ГЋГІГ±Г®Г°ГІГЁГ°Г®ГўГ Г­Г­Г»Г© ГґГ Г©Г«";
 			// 
 			// MyForm
 			// 
@@ -199,7 +199,7 @@ namespace UP_KryatalovaOV {
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
 			this->Name = L"MyForm";
-			this->Text = L"УП_КряталоваОВ";
+			this->Text = L"Г“ГЏ_ГЉГ°ГїГІГ Г«Г®ГўГ ГЋГ‚";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -208,7 +208,7 @@ namespace UP_KryatalovaOV {
 #pragma endregion
 
 
-	//Считывание и вывод на форму исходного файла
+	//Р§С‚РµРЅРёРµ Рё РІС‹РІРѕРґ РёСЃС…РѕРґРЅРѕРіРѕ С„Р°Р№Р»Р°
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 	
 	String^ name = "before.txt";
@@ -218,7 +218,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	
 }
 	
-	//Функции потоков sort1-sort5
+	//Р¤СѓРЅРєС†РёРё РїРѕС‚РѕРєРѕРІ
 public: void sort1() {
 	char letter;
 	ifstream f;
@@ -227,11 +227,11 @@ public: void sort1() {
 	for (int i = 0; i < 10; i++)
 	{
 		f >> letter;
-		v1.push_back(letter); //Заполнение вектора буквами из файла
+		v1.push_back(letter); //Р—Р°РїРёСЃСЊ СЃРѕРґРµСЂР¶РёРјРѕРіРѕ РёСЃС…РѕРґРЅРѕРіРѕ С„Р°Р№Р»Р° РІ РІРµРєС‚РѕСЂ
 	}
-	sort(v1.begin(), v1.end());  //Сортировка вектора по возрастанию
-	reverse(v1.begin(), v1.end()); //Переворот - сортировка по убыванию
-	addToFile(v1); //Запись в итоговый файл
+	sort(v1.begin(), v1.end());  //РЎРѕСЂС‚РёСЂРѕРІРєР° РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ
+	reverse(v1.begin(), v1.end()); //РџРµСЂРµРІРѕСЂРѕС‚ (СЃРѕСЂС‚РёСЂРѕРІРєР° РїРѕ СѓР±С‹РІР°РЅРёСЋ)
+	addToFile(v1); //Р—Р°РїРёСЃСЊ РІ РёС‚РѕРіРѕРІС‹Р№ С„Р°Р№Р»
 	
 	for (int i = 0; i < 10; i++)
 	{
@@ -355,14 +355,14 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	ofstream filestream("after.txt");
 	filestream.close();
 	
-	//Создание потоков
+	//СЃРѕР·РґР°РЅРёРµ РїРѕС‚РѕРєРѕРІ
 	myThread1 = gcnew Thread(gcnew ThreadStart(this, &MyForm::sort1));
 	myThread2 = gcnew Thread(gcnew ThreadStart(this, &MyForm::sort2));
 	myThread3 = gcnew Thread(gcnew ThreadStart(this, &MyForm::sort3));
 	myThread4 = gcnew Thread(gcnew ThreadStart(this, &MyForm::sort4));
 	myThread5 = gcnew Thread(gcnew ThreadStart(this, &MyForm::sort5));
 	
-	//Запуск
+	//Р·Р°РїСѓСЃРє РїРѕС‚РѕРєРѕРІ
 	myThread1->Start();
 	myThread1->Join();
 	myThread2->Start();
@@ -375,11 +375,11 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	myThread5->Join();
 
 
-	//Считывание итогового файла
+	//СЃС‡РёС‚С‹РІР°РЅРёРµ РёС‚РѕРіРѕРІРѕРіРѕ С„Р°Р№Р»Р°
 	String^ name = "after.txt";
 	StreamReader^ file = File::OpenText(name);
 	
-	//Вывод на экран
+	//РІС‹РІРѕРґ РЅР° СЌРєСЂР°РЅ
 	textBox2->Text = file->ReadToEnd();
 	file->Close();
 }
